@@ -1,0 +1,20 @@
+#form {
+    position: relative;
+    right:8vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid $text-color;
+    height:40vh;
+    width: 32vh;
+    & span{
+        display: flex;
+        color:#f53f3f;
+        font-size: x-small;
+        width:29vh;
+    }
+    #msgMail{
+        resize:none;
+    }
+}

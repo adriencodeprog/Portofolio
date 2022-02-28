@@ -1,0 +1,24 @@
+@mixin text-position{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+@mixin bloc-position{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 5vh;
+    min-height: 100vh;
+}
+@mixin bloc-position-contact{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 5vh;
+    min-height: 100vh;
+}

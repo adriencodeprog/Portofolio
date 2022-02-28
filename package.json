@@ -1,0 +1,11 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Portofolio d'Adrien Vom Hoevel",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./sass/index.css --style compressed"
+  },
+  "author": "Adrien Vom Hoevel",
+  "license": "ISC"
+}

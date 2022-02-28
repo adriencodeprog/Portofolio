@@ -1,0 +1,39 @@
+#contact{
+    @include bloc-position-contact;
+    & div{
+        & li{
+            list-style-type: none;
+        }
+        & img{
+            width:50px;
+        }
+        & h2{
+            font-size:xx-large;
+        }
+    }
+    & img{
+        width: 35vh;
+        margin-right: 10vh;
+    }
+    /*Formulaire*/
+    #form {
+        position: relative;
+        right:8vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid $text-color;
+        height:40vh;
+        width: 32vh;
+        & span{
+            display: flex;
+            color:#f53f3f;
+            font-size: x-small;
+            width:29vh;
+        }
+        #msgMail{
+            resize:none;
+        }
+    }
+}

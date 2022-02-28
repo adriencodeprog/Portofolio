@@ -1,0 +1,16 @@
+.description{
+    @include text-position;
+    &p, h1 {
+        font-size: 90px;
+        text-transform: uppercase;
+        text-align: center;
+        animation: developpeur 3000ms ease-in-out;
+        
+    }
+    &:nth-child(2){
+        animation: nom-prenom 2000ms ease-in-out 1000ms backwards;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+    }  
+}

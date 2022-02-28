@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height="device-height", initial-scale=1.0">
+    <meta name="author" content="Adrien Vom Hoevel">
+    <meta name="description" content="Desription du site">
+    <meta property="og:image" content="image pour facebook">
+    <meta property="og:description" content="Description du site pour facebook">
+    <meta property="og:title" content="Titre du site pour facebook">
+    <meta name="twitter:title" content="Titre du site pour twitter">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./sass/index.css">
+    <title>Indiquez votre titre</title>
+</head>
+<body>
+    <!--Menu de navigateur intégrer au header-->
+  <header>
+    <div class="nav">
+      <input type="checkbox">
+        <span></span>
+        <span></span>
+        <div class="menu">
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+    </div>
+  </header>
+  <!--Lorsqu'on arrive sur le site-->
+  <div class='description'>
+    <h1>Développeur web</h1>
+    <p>Adrien Vom Hoevel</p>
+  </div>
+  <!--Page de présentation/Menu -> présentation-->
+  <div id ='presentation'>
+    <img src='./images/tree.png' alt="arbre"/>
+    <div>
+      <h2>Présentation</h2>
+  <p>
+    Je m'appel Adrien Vom Hoevel, j'ai 31ans et j'habite bouguenais, c'est à côté de Nantes.<br/>
+Je souhaite devenir développeur. C'est une reconversion professionelle après 9 ans dans la restauration.<br/>
+J'ai réalisé ce portofolio en autodidacte, ça me permet de me familiariser avec le métier et ça vous permet de voir ce que je peux faire.<br/>
+Je suis à la recherche d'une alternance, d'un stage, pour être diplômé, aller toujours plus loin dans la programmation !<br/>
+J'ai déjà une <a href='https://openclassrooms.com/' target='_BLANK'>école</a> et voici son <a href='file:///media/fuse/drivefs-741573bb204acb78f10b54900724b72f/root/Formation/brochure.pdf' target='_BLANK' >programme.</a></p>
+<h3>Mes passions, loisirs, centre d'intérêt,...</h3>
+<p>
+  Je suis passionné par tout ce qui m'entoure, ce qui me manque c'est le temps de tout découvrir<br/>
+Ce qui m'anime en ce moment c'est la programmation. Alors tout tourne beaucoup autour, même dans ma vie privée.<br/>
+J'arrive à penser à autre chose si je me mets derrière un jeux vidéo, un jeux de société, en dernier recourt un livre ou une guitare.
+Pour le reste c'est du temps à analyser des lignes de code. Beaucoup de temps !</p>
+<h3>Des valeurs</h3>
+<p> Je peux vous en faire une liste, mais elles sont toutes proche de "l'humain" et de "l'innovation", "l'évolution".<br/>
+Rien de tel que se confronter à l'échec et la difficulté pour avancer, s'améliorer, se construire et s'épanouir.
+</p>
+    </div>
+    </div>
+    <!--Page/Menu compétences-->
+<div id ='skills'>
+  <div class='skills_text'>
+<h2>Compétences</h2>
+<p>Ce site c'est un début, je continue d'ailleurs de l'améliorer.<br/>
+  J'ai fais ce site en HTML5, CSS3(Sass), PhP et JavaScript<br/>
+  Je sais utiliser un terminal de commande, utiliser Git et Github.<br/>
+  J'ai des notions de MySQL, je les développes avec le temps !
+</p>
+</div>
+<img src='./images/logos.png' alt="Ordinateur"/>
+</div>
+<!--Page/menu de contact-->
+<div id ='contact'>
+  <img src='./images/contact.png' alt="Machine à écrire" />
+  <div><h2>Contact</h2>
+<ul>
+  <li><a href='https://www.linkedin.com/in/adrienvomhoevel' target="_BLANK"><img src='./images/logo_LK.png' alt="Lien Linkedin"/></a></li>
+  <li><a href="mailto:adriencodeprog@gmail.com" target="_BLANK"><img src='./images/gmail.png' alt="Lien Gmail"/></a></li>
+  <li><a href="https://github.com/adriencodeprog" target="_BLANK"><img src='./images/logo_git.png' alt="Lien GitHub"/></a></li>
+</ul>
+<!--formulaire-->
+<form action="./envoiMail.php" method="POST" id="form">
+  <div>
+    <input type="text" id="identite" name="identite" maxlength="40" placeholder="Prénom et nom" >
+    <span id="identiteError"></span>
+</div>
+<div>
+    <input type="email" id="mail" name="mail" placeholder="Adresse électronique" maxlength="70" >
+    <span id="mailError"></span>
+</div>
+<div>
+    <textarea id="msgMail" name="msgMail" placeholder="Entrez votre message ici :" rows="4" ></textarea>
+</div>
+<div class="button">
+  <button type="submit" >Envoyer le mail</button>
+</div>
+</form>
+</div>
+</div>
+    <script>JavaScript/index.js</script>
+</body>
+</html>

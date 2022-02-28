@@ -1,0 +1,9 @@
+#skills{
+    @include bloc-position;
+    & div{
+        margin-right: 10vh;
+    }
+    & img{
+        margin-right: 10vh;
+    }
+}
